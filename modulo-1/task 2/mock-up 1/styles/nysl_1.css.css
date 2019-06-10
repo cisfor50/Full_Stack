@@ -1,0 +1,53 @@
+.textodelheader {
+  position: absolute;
+  font-size: 30px;
+  top:180px;
+	color:white;
+
+}
+
+#left-block {
+
+  float: left;
+}
+
+#right-block {
+
+  float: left;
+  text-indent: 150pt;
+
+}
+
+.franja-negra {
+  position: relative;
+  bottom: 50px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+
+}
+
+.logo {
+
+  position: absolute;
+  top: 100%;
+  left: 80%;
+  transform: translate(10%, -150%);
+}
+
+#text-formato {
+	
+	position:relative;
+	left:200px;
+	width:700px;
+	display:inline-block;	
+	
+}
+
+#posicion-texto {
+	position:relative;
+	left:25px;
+	width:730px;
+	
+}

@@ -1,0 +1,158 @@
+.imagen-titulo {
+	display: block;
+	position: relative;
+	opacity: 0.5;
+}
+
+.imagen-titulo:before {
+
+	display: block;
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	-moz-box-shadow: inset 0px 0px 3px 1px rgba(0, 0, 0, 1);
+	-webkit-box-shadow: inset 0px 0px 3px 1px rgba(0, 0, 0, 1);
+	box-shadow: inset 0px 0px 3px 1px rgba(0, 0, 0, 1);
+}
+
+.logo {
+	position: absolute;
+	bottom: 380px;
+	left: 10%;
+    opacity: 0.9;
+}
+
+.textodelheader {
+	position: absolute;
+	font-size: 25px;
+	bottom: 380px;
+	left: 27%;
+	color: whitesmoke;
+	opacity: 0.9;
+}
+
+#botones {
+	text-align: center;
+	position: relative;
+	float: none;
+	background-color: none;
+	margin: 5px;
+}
+
+
+
+.boton_home {
+
+	text-decoration: none;
+	background-color: navy;
+	padding: 5px;
+	font-size: 20px;
+	color: #ffffff;
+	border: 3px outset white;
+}
+
+.boton_home:hover {
+	color: #ffffff;
+	background-color: darkgreen;
+}
+
+
+.boton_about {
+
+	text-decoration: none;
+	background-color: navy;
+	padding: 5px;
+	font-size: 20px;
+	color: #ffffff;
+	border: 3px outset white;
+
+}
+
+.boton_about:hover {
+	color: #ffffff;
+	background-color: darkgreen;
+}
+
+
+.boton_contact {
+	text-decoration: none;
+	padding: 3px;
+	font-size: 20px;
+	color: #ffffff;
+	background-color: navy;
+	border: 3px outset white;
+}
+
+.boton_contact:hover {
+	color: #ffffff;
+	background-color: darkgreen;
+}
+
+.franja-negra {
+	background-color: navy;
+	text-align: center;
+	font-size: 28px;
+	padding:0px;
+	color: white;
+}
+
+.imagen-izquierda {
+	position: absolute;
+	float: left;
+	padding: 20px;
+	opacity: 0.9;
+}
+
+#contenedor-central {
+	float: none;
+	position: relative;
+	padding: 5px;
+	height: 450px;
+  	border: 10px double navy;
+}
+
+
+.fechas {
+	position: relative;
+	text-align: center;
+	color: whitesmoke;
+	background-color: navy;
+	opacity: 0.7;
+	top: 55px;
+	left: 450px;
+	width: 400px;
+}
+
+.texto-central {
+
+	position: relative;
+	float: none;
+}
+
+.textos {
+
+	position: relative;
+	text-align: center;
+	color: whitesmoke;
+	background-color: navy;
+	opacity: 0.7;
+	top: -10px;
+	left: 320px;
+	width: 700px;
+	height: 300;
+
+}
+
+.email {
+
+	position: relative;
+	text-align: center;
+	color: whitesmoke;
+	background-color: navy;
+	top: 55px;
+	width: 400px;
+	left: 450px;
+
+}
+
